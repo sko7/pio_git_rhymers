@@ -15,22 +15,22 @@ public class DefaultCountingOutRhymer {
 	}
 
 	public boolean callCheck() {
-		return total == CHECK_VALUE;
+		return total == -1;
 	}
 		
 	public boolean isFull() {
-		return total == FULL_VALUE;
+		return total == 11;
 	}
 
 	protected int peekaboo() {
 		if (callCheck())
-			return CHECK_VALUE;
+			return -1;
 		return numbers[total];
 	}
 
 	public int countOut() {
 		if (callCheck())
-			return CHECK_VALUE;
+			return -1;
 		return numbers[total--];
 	}
 }
