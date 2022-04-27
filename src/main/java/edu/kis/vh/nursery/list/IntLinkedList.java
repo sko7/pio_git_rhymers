@@ -26,7 +26,7 @@ public class IntLinkedList {
 
 	public int top() {
 		if (isEmpty())
-			return -1;
+			return ERR_EMPTY;
 		return last.value;
 	}
 
