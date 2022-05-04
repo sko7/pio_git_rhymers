@@ -9,6 +9,8 @@ public class RhymersJUnitTest {
 	private static final int STACK_CAPACITY = 12;
 	private static final int EMPTY_STACK_VALUE = -1;
 
+	// TODO: napisać test dla metody getTotal klasy DefaultCountingOutRhymer
+
 	@Test
 	public void testCountIn() {
 		DefaultCountingOutRhymer rhymer = new DefaultCountingOutRhymer();

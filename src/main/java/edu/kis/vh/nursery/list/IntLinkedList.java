@@ -1,10 +1,11 @@
 package edu.kis.vh.nursery.list;
 
+// TODO: usunąć nieużywaną klasę (jeśli nie planujemy jej w przyszłości używać)
 public class IntLinkedList {
 
 	private static final int ERR_EMPTY = -1;
 	Node last;
-	int i;
+	int i;	// TODO: usunąć nieużywany atrybut
 
 	public void push(int i) {
 		if (last == null)
